@@ -115,7 +115,7 @@ function RegisterScreen({history}) {
                 <Button type="primary" htmlType="submit" className="login-form-button" block>
                   Sign up
                 </Button>
-                Or <Link to='/login'>log in!</Link>
+                Have an Account? <Link to='/login'>log in!</Link>
               </Form.Item>
             </Form>
           </div>
