@@ -39,8 +39,8 @@ function LoginScreen({history}) {
           <div className="container-fluid">
             <div className="titleHolder">
             <h2>Log in</h2>
-            </div>
             {loading && <Spin />}
+            </div>
             {error && errorAlert()}
             <Form
               name="normal_login"
