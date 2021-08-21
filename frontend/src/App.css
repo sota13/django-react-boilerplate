@@ -1,0 +1,171 @@
+/* 
+general 
+-------
+*/
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.bgGray {
+  background: #fafafa;
+}
+
+/* 
+content
+-------
+*/
+
+.ant-layout-content {
+  min-height: 85vh;
+}
+
+.site-layout-content {
+  min-height: 80px;
+  padding: 24px;
+  background: #fff;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+/* 
+block
+----- 
+*/
+.block {
+  padding: 60px 0;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+/* 
+title holder
+------------
+*/
+.titleHolder {
+  text-align: center;
+  position: relative;
+  padding: 0 0 20px;
+  margin: 0 0 40px;
+}
+
+.titleHolder:after {
+  transform: translateX(-50%);
+  content: "";
+  background: #1890ff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  width: 50px;
+}
+
+.titleHolder h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+/* 
+form
+-------
+*/
+.formBlock .ant-form {
+  max-width: 640px;
+  margin: auto;
+}
+
+.formtBlock .ant-form textarea {
+  min-height: 120px;
+  height: 120px;
+}
+
+/* 
+footer
+------
+*/
+.ant-layout-footer {
+  background: #111 !important;
+  color: #fff !important;
+  padding: 10px 0 !important;
+  text-align: center;
+}
+
+.footer .logo {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+}
+
+.footer .fas {
+  color: #1890ff;
+  font-size: 28px;
+  margin: 0 5px 0 0;
+}
+
+.footer .logo a {
+  color: #fff;
+}
+
+.footer .socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 24px;
+}
+
+.footer .socials li {
+  margin: 0 20px;
+}
+
+.footer .socials a {
+  color: #fff;
+}
+
+.footer .socials a:hover {
+  color: #1890ff;
+}
+
+.footer .goTop:hover {
+  opacity: 0.7;
+}
+
+.mobileVisible {
+  display: none;
+}
+
+.mobileHidden {
+  display: block;
+}
+
+.custumPadding {
+  padding: 20px 50px;
+}
+
+@media (min-width: 900px) {
+  .custumPadding {
+    padding: 20px 150px;
+  }
+}
